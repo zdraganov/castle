@@ -1,0 +1,15 @@
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  con = checkout -b
+  po = push -u origin
+[push]
+	default = matching
+[user]
+	name = Zhivko Draganov
+	email = zhivko.draganov@gmail.com
