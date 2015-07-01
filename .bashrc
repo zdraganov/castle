@@ -26,52 +26,6 @@ export PS1=$YELLOW"\u"$LIGHT_GRAY"🌀 "$MAGENTA"\h"$CYAN" [📂  \W]"'$(
     else echo "'$GREEN'" $(__git_ps1 " (%s)")
     fi)'$LIGHT_GRAY': '
 
-# aliases for listing
-alias ll='ls -hAlF'
-alias gg='git status -s'
-alias li='ls -hAlFi'
-
-## dooh!
-alias sl='ls'
-alias ks='ls'
-alias LS='ls'
-
-## other useful/useless aliases
-alias rm='rm -rf'
-alias grep='grep --color=auto'
-alias df='df -h'
-alias du='du -h'
-alias dirsize='du -csh'
-
-## util-linux-ng's rename is lame, perl's one is way better
-alias rename='prename'
-
-## i hate the .viminfo
-alias vim='vim -i NONE'
-
-## fix some other typos i make intensively
-alias CD='cd'
-alias cd..='cd ..'
-
-## rails!
-alias r='rails'
-alias rc='rails console'
-alias c='rails console'
-alias rs='rails server'
-alias s='rails server'
-alias rg='rails generate'
-alias g='rails generate'
-alias bundel='bundle'
-alias rdm='rake db:migrate'
-
-## for the man
-alias fs='foreman start'
-alias fc='foreman run rails console'
-
-## some administrative ones
-alias su='sudo su'
-alias chown='sudo chown'
-
 #
 # set some other handy stuff
 #
