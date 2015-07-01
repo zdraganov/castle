@@ -23,10 +23,10 @@ export PS1=$YELLOW"\u"$LIGHT_GRAY"@"$BLUE"\h"'$(
     then echo "'$MAGENTA'"$(__git_ps1 " (%s)")
     # the state is clean, changes are commited
     else echo "'$GREEN'"$(__git_ps1 " (%s)")
-    fi)'$CYAN" \w"$LIGHT_GRAY": "
+    fi)'$CYAN" \W"$LIGHT_GRAY" 🍺  "
 
 # aliases for listing
-alias ll='ls -lahF'
+alias ll='ls -hAlF'
 alias gg='git status -s'
 alias li='ls -hAlFi'
 
