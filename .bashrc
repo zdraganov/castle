@@ -24,7 +24,7 @@ export PS1=$YELLOW"\u"$LIGHT_GRAY"🌀 "$MAGENTA"\h"$CYAN" [📂  \W]"'$(
     then echo "'$MAGENTA'" $(__git_ps1 " (%s)")
     # the state is clean, changes are commited
     else echo "'$GREEN'" $(__git_ps1 " (%s)")
-    fi)'$LIGHT_GRAY' : '
+    fi)'$LIGHT_GRAY': '
 
 # aliases for listing
 alias ll='ls -hAlF'
